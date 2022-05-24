@@ -1,8 +1,8 @@
 """
 Issue: The rbp (random border point) is not changing after the hoop is collected.
 when the bird collides with the hoop it collects it, but the hoop is then supposed to change direction.
-The hoop insted continues on useing the same rbp
-
+The hoop insted continues on useing the same rbp and doesn't generate a new rbp.
+"""
 
 import random
 import math
